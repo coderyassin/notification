@@ -1,3 +1,23 @@
 spring:
   application:
     name: notification-producer
+  data:
+    mongodb:
+      authentication-database: admin
+      host: 192.168.128.108
+      port: 27017
+      username: yascode
+      password: 4u3wdQ85boI8CMPQfB1kq6ufiJa3rB
+      database: notification
+  rabbitmq:
+    host: 192.168.128.108
+    port: 5672
+    username: yascode
+    password: voW7BaVzXXJycHbRitMafWTlz5dQgG
+logging:
+  level:
+    org.hibernate.SQL: info
+    org.hibernate.type.descriptor.sql.BasicBinder: info
+
+
+
